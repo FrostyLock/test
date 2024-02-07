@@ -4,7 +4,7 @@
 //       <first>Ivan</first>
 //       <second>Ivanov</second>
 //     </name>
-//     <age>35</age>
+//     <age>20</age>
 //     <prof>teacher</prof>
 //   </student>
 //   <student>
@@ -12,7 +12,7 @@
 //       <first>Петр</first>
 //       <second>Петров</second>
 //     </name>
-//     <age>58</age>
+//     <age>60</age>
 //     <prof>driver</prof>
 //   </student>
 // </list>`;
