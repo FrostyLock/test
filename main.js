@@ -1,4 +1,4 @@
-const xmlStr = `<list>
+let xmlStr = `<list>
   <student>
     <name lang="en">
       <first>Ivan</first>
