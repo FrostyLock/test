@@ -24,7 +24,7 @@ const students = [];
 const studentNodes = xmlDoc.getElementsByTagName("student");
 
 for (let i = 0; i < studentNodes.length; i++) {
-  const student = {};
+  let student = {};
   const name = studentNodes[i].getElementsByTagName("name")[0];
   const firstName = name.getElementsByTagName("first")[0].textContent;
   const lastName = name.getElementsByTagName("second")[0].textContent;
