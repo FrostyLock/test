@@ -4,7 +4,7 @@ let xmlStr = `<list>
       <first>Ivan</first>
       <second>Ivanov</second>
     </name>
-    <age>20</age>
+    <age>30</age>
     <prof>teacher</prof>
   </student>
   <student>
