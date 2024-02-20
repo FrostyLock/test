@@ -17,7 +17,7 @@ let xmlStr = `<list>
   </student>
 </list>`;
 
-const parser = new DOMParser();
+var parser = new DOMParser();
 const xmlDoc = parser.parseFromString(xmlStr, "application/xml");
 
 const students = [];
