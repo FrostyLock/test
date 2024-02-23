@@ -18,7 +18,7 @@ let xmlStr = `<list>
 </list>`;
 
 var parser = new DOMParser();
-const xmlDoc = parser.parseFromString(xmlStr, "application/xml");
+var xmlDoc = parser.parseFromString(xmlStr, "application/xml");
 
 const students = [];
 const studentNodes = xmlDoc.getElementsByTagName("student");
