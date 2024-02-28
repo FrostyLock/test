@@ -36,7 +36,7 @@ for (let i = 0; i < studentNodes.length; i++) {
   students.push(student);
 }
 
-const result = { list: students };
+var result = { list: students };
 console.log(result);
 
 const xmlStr = '<list><item><name>Petr</name><age>20</age><prof>mechanic</prof></item><item><name>Vova</name><age>60</age><prof>pilot</prof></item></list>';
