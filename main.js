@@ -33,7 +33,6 @@ for (let i = 0; i < studentNodes.length; i++) {
   student.age = parseInt(studentNodes[i].getElementsByTagName("age")[0].textContent);
   student.prof = studentNodes[i].getElementsByTagName("prof")[0].textContent;
   student.lang = name.getAttribute("lang");
-  students.push(student);
 }
 
 var result = { list: students };
