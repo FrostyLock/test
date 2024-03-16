@@ -1,6 +1,6 @@
 let xmlStr = `<list>
   <student>
-    <name lang="en">
+    <name lang="ru">
       <first>Ivan</first>
       <second>Ivanov</second>
     </name>
