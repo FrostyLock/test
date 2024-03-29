@@ -9,7 +9,7 @@ let xmlStr = `<list>
   </student>
   <student>
     <name lang="ru">
-      <first>Петр</first>
+      <first>Rambo</first>
       <second>Петров</second>
     </name>
     <age>60</age>
