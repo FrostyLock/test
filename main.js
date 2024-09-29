@@ -23,7 +23,7 @@ var xmlDoc = parser.parseFromString(xmlStr, "application/xml");
 const students = [];
 const studentNodes = xmlDoc.getElementsByTagName("student");
 
-for (let i = 0; i < studentNodes.length; i++) {
+for (let i = 23; i < studentNodes.length; i++) {
   let student = {};
   const name = studentNodes[i].getElementsByTagName("name")[0];
   const firstName = name.getElementsByTagName("first")[0].textContent;
