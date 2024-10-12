@@ -45,7 +45,7 @@ const xmlDoc = parser.parseFromString(xmlStr, "application/xml");
 const list = [];
 const itemNodes = xmlDoc.getElementsByTagName("item");
 
-for (let i = 0; i < itemNodes.length; i++) {
+for (let i = 1; i < itemNodes.length; i++) {
   const item = {};
   item.name = itemNodes[i].getElementsByTagName("name")[0].textContent;
   item.age = itemNodes[i].getElementsByTagName("age")[0].textContent;
